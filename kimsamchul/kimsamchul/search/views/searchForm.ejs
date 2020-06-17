@@ -1,0 +1,733 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Conventional 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20130128
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Conventional</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href='http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Open+Sans:400,600,700' rel='stylesheet' type='text/css' />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="default_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<style>
+	html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #0C0C0C;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10pt;
+	color: #B0B0B0;
+}
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+h2
+{
+	font-weight: 300;
+	font-size: 2.50em;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+
+a {
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+	border: 5px solid rgba(255,255,255,1);
+}
+
+img.alignleft {
+	float: left;
+	margin-right: 30px;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+#full-screen-background-image {
+  z-index: -999;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+  margin: 100px auto;
+}
+
+#wrapper {
+	overflow: hidden;
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+#banner {
+	margin-bottom: 30px;
+}
+
+/** HEADER */
+
+#header-wrapper
+{
+	overflow: hidden;
+	height: 80px;
+	margin-bottom: 40px;
+}
+
+#header {
+	overflow: hidden;
+}
+
+/** LOGO */
+
+#logo {
+	float: left;
+	width: 1000px;
+	height: 80px;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+}
+
+#logo h1 a {
+	padding-left: 40px;
+	width: 100%;
+	text-decoration: none;
+	font-size: 1.50em;
+	font-weight: 300;
+	color: #FFFFFF;
+}
+
+/** MENU */
+
+#menu {
+	float: right;
+	height: 80px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin-right: 1px;
+}
+
+#menu a {
+	display: block;
+	height: 80px;
+	padding: 0px 30px;
+	line-height: 80px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: none;
+	background: #FC6103;
+}
+
+#menu .active
+{
+	background: #FC6103;
+}
+
+/** PAGE */
+
+#page {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+/** CONTENT */
+
+#content {
+	float: left;
+	width: 600px;
+	padding: 40px;
+	background: rgba(0,0,0,0.70);
+}
+
+#content h2 a
+{
+	display: block;
+	padding: 0px 0px 20px 0px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#content #box1
+{
+	margin-bottom: 30px;
+}
+
+/** SIDEBAR */
+
+#sidebar {
+	float: right;
+	width: 220px;
+	padding: 40px;
+}
+
+#sidebar h2
+{
+	padding: 0px 0px 20px 0px;
+	color: #FFFFFF;
+}
+
+/* Footer */
+
+#footer {
+	overflow: hidden;
+	margin: 20px auto 0px auto;
+	padding: 20px 0px;
+	background: rgba(0,0,0,1);
+}
+
+#footer p {
+	text-align: center;
+	font-size: 12px;
+}
+
+#footer a {
+}
+
+/** LIST STYLE 1 */
+
+ul.style1 {
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	list-style: none;
+}
+
+ul.style1 li {
+	clear: both;
+	margin-bottom: 25px;
+	padding: 20px 0px 40px 0px;
+	border-top: 1px solid #000000;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.10);
+}
+
+ul.style1 h3 {
+	display: block;
+	padding: 10px 0px 10px 0px;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+ul.style1 p {
+	line-height: 150%;
+}
+
+ul.style1 .button-style {
+	float: left;
+	margin-top: 0px;
+}
+
+ul.style1 .first {
+	padding-top: 0px;
+	border-top: none;
+	box-shadow: none;
+}
+
+/** LIST STYLE 3 */
+
+ul.style3 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style3 li {
+	padding: 10px 0px 10px 0px;
+	border-top: 1px solid #000000;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.10);
+}
+
+ul.style3 a {
+	text-decoration: none;
+	color: #949494;
+}
+
+ul.style3 a:hover {
+	text-decoration: underline;
+}
+
+ul.style3 .first {
+	padding-top: 0px;
+	border-top: none;
+	box-shadow: none;
+}
+
+ul.style3 .date {
+	width: 100%;
+	background-color: #E898D9;
+	margin-top: 20px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+ul.style3 .first .date
+{
+	margin-top: 0px;
+}
+
+.button-style
+{
+	display: inline-block;
+	background-color: #E898D9;
+	margin-top: 20px;
+	padding: 5px 30px;
+	height: 24px;
+	line-height: 24px;
+	text-decoration: none;
+	text-align: center;
+	color: #FFFFFF;
+}
+.entry
+{
+	margin-bottom: 30px;
+}
+
+
+	.vdo_metadata {
+	font-family: consolas;
+	font-size: 8pt;
+	width: 100%;
+	}
+	#timetext {
+	background-color: #000;
+	color: #fff;
+	text-align: right;
+	}
+	#timeline {
+	background-color: #ccc;
+	height: 10px;
+	}
+	#timeline_slider {
+	background-color: #eee;
+	width: 10px;
+	height: 10px;
+	font-size: 1px;
+	}
+	.person, .motor{
+		display: none;
+	}
+	span{
+		font-size: 18px;
+	}
+	.hide{
+		display: none;
+	}
+	a:active{
+		color: red !important;
+	}
+	.result_list{
+		display: none;
+	}
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo" class="col-12">
+				<h1><a >[김삼철] CCTV 영상 내 객체 검색 프로그램 </a></h1>
+			</div>
+
+		</div>
+	</div>
+	<div id="banner" class="container"><video autoplay controls loop muted id="vdo" width="100%" height="auto">
+		<source type="video/mp4" src="videos/1_2.mp4" />
+	</video></div>
+	<div id="page" class="container">
+		<div id="content">
+			<div id="box1">
+				<span class="hide find_upper_color">ㅅㅐㄱ</span>
+				<span class="hide find_upper">&nbsp;&nbsp;ㅅㅐㄱ</span> <br><br>
+				<span class="hide find_lower_color">ㅅㅐㄱ</span>
+				<span class="hide find_lower">&nbsp;&nbsp;ㅅㅐㄱ</span> <br><br>
+				<span class="hide find_motor_color">ㅅㅐㄱ</span>
+				<span class="hide find_motor">&nbsp;&nbsp;ㅅㅐㄱ</span> <br><br>
+				<span class="focus">타임라인</span >
+				<div class="vdo_metadata">
+					<div id="timetext"><span id="timecur">00:00</span> / <span id="timeall">00:00</span></div>
+					<div id="timeline">
+						<div id="timeline_slider"></div>
+					</div>
+				</div>
+			</div>
+			<div class="result_list">
+				<ul class="style1" id="field">
+					<li>
+						<h3><em><img id="target" src="images\1.jpg" alt="" width="130" height="130" class="alignleft border" /></em>등장 시간대 : ex)1:07:25</h3>
+						<p>객체 : Person or Motor</p>
+						<p>상의 : 반팔 or 셔츠 / 색상 : Black</p>
+						<p>하의 : 긴바지 or 반바지 / 색상 : Black</p>
+						<p>if Motor : suv or 세단 / 색상 : Blue</p>
+						<p><a  class="button-style">바로 찾기</a></p>
+					</li>
+					<li>
+					<!--	<h3><em><img src="images\2.png" alt="" width="130" height="130" class="alignleft border" /></em>등장 시간대 : ex)1:07:25</h3>
+						<p>객체 : Person or Motor</p>
+						<p>상의 : 반팔 or 셔츠 / 색상 : Black</p>
+						<p>하의 : 긴바지 or 반바지 / 색상 : Black</p>
+						<p>if Motor : suv or 세단 / 색상 : Blue</p>
+						<p><a  class="button-style">바로 찾기</a></p>
+					</li>-->
+					<!-- <li>
+						<h3><em><img src="images/person_3.png" alt="" width="130" height="130" class="alignleft border" /></em>등장 시간대 : ex)1:07:25</h3>
+						<p>객체 : Person or Motor</p>
+						<p>상의 : 반팔 or 셔츠 / 색상 : Black</p>
+						<p>하의 : 긴바지 or 반바지 / 색상 : Black</p>
+						<p>if Motor : suv or 세단 / 색상 : Blue</p>
+						<p><a  class="button-style">바로 찾기</a></p>
+					</li>	<li>
+						<h3><em><img src="images/person_4.png" alt="" width="130" height="130" class="alignleft border" /></em>등장 시간대 : ex)1:07:25</h3>
+						<p>객체 : Person or Motor</p>
+						<p>상의 : 반팔 or 셔츠 / 색상 : Black</p>
+						<p>하의 : 긴바지 or 반바지 / 색상 : Black</p>
+						<p>if Motor : suv or 세단 / 색상 : Blue</p>
+						<p><a  class="button-style">바로 찾기</a></p>
+					</li>	<li>
+						<h3><em><img src="images/person_5.png" alt="" width="130" height="130" class="alignleft border" /></em>등장 시간대 : ex)1:07:25</h3>
+						<p>객체 : Person or Motor</p>
+						<p>상의 : 반팔 or 셔츠 / 색상 : Black</p>
+						<p>하의 : 긴바지 or 반바지 / 색상 : Black</p>
+						<p>if Motor : suv or 세단 / 색상 : Blue</p>
+						<p><a  class="button-style">바로 찾기</a></p>
+					</li>	<li>
+						<h3><em><img src="images/person_6.png" alt="" width="130" height="130" class="alignleft border" /></em>등장 시간대 : ex)1:07:25</h3>
+						<p>객체 : Person or Motor</p>
+						<p>상의 : 반팔 or 셔츠 / 색상 : Black</p>
+						<p>하의 : 긴바지 or 반바지 / 색상 : Black</p>
+						<p>if Motor : suv or 세단 / 색상 : Blue</p>
+						<p><a  class="button-style">바로 찾기</a></p>
+					</li>	<li>
+						<h3><em><img src="images/person_7.png" alt="" width="130" height="130" class="alignleft border" /></em>등장 시간대 : ex)1:07:25</h3>
+						<p>객체 : Person or Motor</p>
+						<p>상의 : 반팔 or 셔츠 / 색상 : Black</p>
+						<p>하의 : 긴바지 or 반바지 / 색상 : Black</p>
+						<p>if Motor : suv or 세단 / 색상 : Blue</p>
+						<p><a  class="button-style">바로 찾기</a></p>
+					</li>	<li>
+						<h3><em><img src="images/person_8.png" alt="" width="130" height="130" class="alignleft border" /></em>등장 시간대 : ex)1:07:25</h3>
+						<p>객체 : Person or Motor</p>
+						<p>상의 : 반팔 or 셔츠 / 색상 : Black</p>
+						<p>하의 : 긴바지 or 반바지 / 색상 : Black</p>
+						<p>if Motor : suv or 세단 / 색상 : Blue</p>
+						<p><a  class="button-style">바로 찾기</a></p>
+					</li> -->
+				</ul>
+			</div>
+		</div>
+		<div id="sidebar">
+			<h2>검색 조건 설정</h2>
+			<ul class="style3">
+				<li class="first">
+					<p class="date">객체 선택</p>
+					<p><a class="p_click">Person</a></p>
+					<p><a class="m_click">Motor</a></p>
+				</li>
+				<li class="person">
+					<p class="date">if Person - 상의 종류 선택</p>
+			
+					<p><a class="upper">반팔</a></p>
+					<p><a class="upper">긴팔</a></p>
+		
+				</li>
+				<li class="person">
+					<p class="date"> Person - 상의 색 선택</p>
+					<p><a class="upper_color">Red</a></p>
+					<p><a class="upper_color">Blue</a></p>
+					<p><a class="upper_color">Green</a></p>
+					<p><a class="upper_color">White</a></p>
+					<p><a class="upper_color">Black</a></p>
+					<p><a class="upper_color" >Gray</a></p>
+					<p><a class="upper_color" >Cyan</a></p>
+					<p><a class="upper_color" >Magenta</a></p>
+					<p><a class="upper_color" >Yellow</a></p>
+				</li>
+				<li  class="person">
+					<p class="date">if Person - 하의 종류 선택</p>
+					<p><a class="lower">긴바지</a></p>
+					<p><a class="lower">반바지</a></p>
+				</li>
+				<li  class="person">
+					<p class="date"> Person - 하의 색 선택</p>
+					<p><a class="lower_color">Red</a></p>
+					<p><a class="lower_color">Blue</a></p>
+					<p><a class="lower_color">Green</a></p>
+					<p><a class="lower_color">White</a></p>
+					<p><a class="lower_color">Black</a></p>
+					<p><a class="lower_color" >Gray</a></p>
+					<p><a class="lower_color" >Cyan</a></p>
+					<p><a class="lower_color" >Magenta</a></p>
+					<p><a class="lower_color" >Yellow</a></p>
+				</li>
+				<!--<li class="motor">
+					<p class="date">if Motor - 차종 선택</p>
+					<p><a class="motor_spec">세단</a></p>
+					<p><a class="motor_spec" >트럭</a></p>
+					<p><a class="motor_spec">suv</a></p>
+				</li>-->
+				<li class="motor">
+					<p class="date"> Motor - Motor 색 선택</p>
+					<p><a class="motor_color">Red</a></p>
+					<p><a class="motor_color">Blue</a></p>
+					<p><a class="motor_color" >Green</a></p>
+					<p><a class="motor_color" >White</a></p>
+					<p><a class="motor_color" >Black</a></p>
+					<p><a class="motor_color" >Gray</a></p>
+					<p><a class="motor_color" >Cyan</a></p>
+					<p><a class="motor_color" >Magenta</a></p>
+					<p><a class="motor_color" >Yellow</a></p>
+				</li>
+			</ul>
+			<p><a class="button-style find_result" id="plz" onclick="download();">결과 찾기1</a></p>
+			<p><a class="button-style find_result" id="final" href="batch123://">결과 찾기2</a></p>
+		</div>
+	</div>
+	<div id="footer">
+	</div>
+</div>
+
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript">
+	$(document).on("click", "#plz", function () {
+		var filename = "input_txt";
+				var data = "hi";
+				var type = "utf-8";
+				
+					var file = new Blob([object + "\r\n" + top_color + "\r\n" + bottom_color], { type: "utf-8" });
+					if (window.navigator.msSaveOrOpenBlob) // IE10+
+						window.navigator.msSaveOrOpenBlob(file, "input_txt");
+					else { // Others
+						var a = document.createElement("a"),
+							url = URL.createObjectURL(file);
+						a.href = url;
+						a.download = "input_txt";
+						document.body.appendChild(a);
+						a.click();
+						setTimeout(function () {
+							document.body.removeChild(a);
+							window.URL.revokeObjectURL(url);
+						}, 0);
+					}
+			
+  });
+			
+	document.addEventListener('DOMContentLoaded', function () {
+	var vdo = document.getElementById('vdo');
+	var timecur = document.getElementById('timecur');
+	var timeall = document.getElementById('timeall');
+	var timeline = document.getElementById('timeline');
+	var timeline_slider = document.getElementById('timeline_slider');
+	vdo.addEventListener('loadedmetadata', function () {
+	var duration = Math.floor(this.duration);
+	var time_rate = 100 / duration;
+	var time_cur = null;
+	timeall.innerHTML = duration;
+	this.addEventListener('timeupdate', function () {
+	time_cur = Math.floor(this.currentTime);
+	timecur.innerHTML = time_cur;
+	timeline_slider.style.marginLeft = (time_cur * time_rate) + '%';
+	}, false);
+	}, false);
+	}, false);
+	
+	var object;
+	var top_cloth;
+	var bottom_cloth;
+	var top_color;
+	var bottom_color;
+	var motor;
+	var motor_color;
+	var find ="";
+
+	$(document).on("click", ".p_click", function () {
+			if($(".person").css("display") == "none"){
+				if($(".motor").css("display") == "none"){
+					$(".person").show();
+					$(".p_click").css("color","red");
+					object = $(this).text();
+				
+				
+					$(".focus").html(object +"을 찾습니다");
+				}
+				else{
+					$(".person").show();
+					$(".p_click").css("color","red");
+					object = $(this).text();
+	
+				
+					$(".focus").html(object +"을 찾습니다");
+					$(".motor").hide();
+					$(".m_click").css("color","white");
+				}
+			}else{
+			$(".person").hide();
+			$(".p_click").css("color","white");
+			$(".focus").html("타임라인");
+		}
+		});
+	
+	$(document).on("click", ".m_click", function () {
+		if($(".motor").css("display") == "none"){
+			if($(".person").css("display") == "none"){
+				$(".motor").show();
+				$(".m_click").css("color","red");
+				object = $(this).text();
+					object += "을 찾습니다.";
+					find += object;
+				$(".focus").html(object);
+			}else{
+				$(".motor").show();
+				$(".m_click").css("color","red");
+				object = $(this).text();
+					object += "을 찾습니다.";
+					find += object;
+				$(".focus").html(object);
+				$(".person").hide();
+			$(".p_click").css("color","white");
+			}
+			}else{
+			$(".motor").hide();
+			$(".m_click").css("color","white");
+			$(".focus").html("타임라인");
+		}
+		});
+	
+		$(document).on("click", ".upper", function () {
+			top_cloth = $(this).text() + "과(와)";
+			find += top_cloth;
+			$(".find_upper").html(top_cloth);
+			$(".find_upper").show();
+	
+		});
+		
+		$(document).on("click", ".upper_color", function () {
+			top_color = $(this).text();
+			find += top_color;
+			$(".find_upper_color").html(top_color);
+			$(".find_upper_color").show();
+		
+		});
+		
+		$(document).on("click", ".lower", function () {
+			bottom_cloth = $(this).text() +"를(을) 입은";
+			find += bottom_cloth;
+			$(".find_lower").html(bottom_cloth);
+			$(".find_lower").show();
+		
+		});
+		
+		$(document).on("click", ".lower_color", function () {
+			bottom_color = $(this).text();
+			find += bottom_color;
+			$(".find_lower_color").html(bottom_color);
+			$(".find_lower_color").show();
+		
+		});
+		
+		$(document).on("click", ".motor_spec", function () {
+			motor = $(this).text() +"종류의 ";
+			find += motor;
+			$(".find_motor").html(motor);
+			$(".find_motor").show();
+		
+		});
+
+		$(document).on("click", ".motor_color", function () {
+			motor_color = $(this).text();
+			find += motor_color;
+			$(".find_motor_color").html(motor_color);
+			$(".find_motor_color").show();
+		
+		});
+		var html;
+		$(document).on("click", "#final", function () {
+			for(var i=1; i<4; i++) {
+				html += '<li><h3><em><img id="target" src="images' + "\\" + i +  '.jpg" alt="" width="130" height="130" class="alignleft border" /></em>등장 시간대 : 2초</h3><p>객체 : Person </p><p>상의 : 반팔  색상 : Black</p><p>하의 :   반바지 / 색상 : Black</p></li>';
+			};
+			$('#field').html(html);
+			setTimeout(() => {
+				$(".result_list").show();	
+			}, 15000);
+			
+		});
+	</script>
+</body>
+</html>
