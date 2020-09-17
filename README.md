@@ -167,5 +167,7 @@ sseemmiin@naver.com
 
   참고문헌: 
 	YOLO v3 : AN INCREMENTAL IMPROVEMENT (Joseph Redmon, Ali FarhadiUniversity 	of Washington)
-	
+
+  #2020 소프트웨어융합대학 산학연계SW프로젝트  우수상(오픈소스) 수상
   Youtube 발표 영상 : https://www.youtube.com/watch?v=JFufYgtSUNs
+  
