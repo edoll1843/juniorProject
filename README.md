@@ -1,4 +1,21 @@
-# kimsamchul
+# kimsamchul 딥러닝 기반 CCTV 녹화동영상 대상 이미지 검색 기술 개발
+
+이정호
+컴퓨터정보공학부
+2014722038
+edoll1843@naver.com
+
+김광호
+컴퓨터정보공학부
+2014722072
+chollian34@naver.com
+
+윤상민
+컴퓨터정보공학부
+2014722062
+sseemmiin@naver.com
+
+<iframe width="640" height="360" src="https://www.youtube.com/watch?v=JFufYgtSUNs" frameborder="0" gesture="media" allowfullscreen=""></iframe>
 
 1. 과제의 개요
  
@@ -150,3 +167,5 @@
 
   참고문헌: 
 	YOLO v3 : AN INCREMENTAL IMPROVEMENT (Joseph Redmon, Ali FarhadiUniversity 	of Washington)
+	
+  Youtube 발표 영상 : https://www.youtube.com/watch?v=JFufYgtSUNs
