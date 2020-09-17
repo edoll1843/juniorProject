@@ -1,5 +1,7 @@
 # 딥러닝 기반 CCTV 녹화동영상 대상 이미지 검색 기술 개발
 
+##2020 소프트웨어융합대학 산학연계SW프로젝트  우수상(오픈소스) 수상
+
 팀장 : 이정호
 컴퓨터정보공학부
 2014722038
@@ -168,6 +170,6 @@ sseemmiin@naver.com
   참고문헌: 
 	YOLO v3 : AN INCREMENTAL IMPROVEMENT (Joseph Redmon, Ali FarhadiUniversity 	of Washington)
 
-  #2020 소프트웨어융합대학 산학연계SW프로젝트  우수상(오픈소스) 수상
+
   Youtube 발표 영상 : https://www.youtube.com/watch?v=JFufYgtSUNs
   
