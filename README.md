@@ -17,7 +17,7 @@ chollian34@naver.com
 2014722062
 sseemmiin@naver.com
 
-전시회 발표 영상 : https://www.youtube.com/watch?v=JFufYgtSUNs
+발표 영상 : https://www.youtube.com/watch?v=JFufYgtSUNs
 
 1. 과제의 개요
  
